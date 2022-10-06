@@ -1,0 +1,14 @@
+{
+  "name": "entrophy2mnemonic",
+  "version": "1.0.0",
+  "description": "CLI that produces bip39 mnemonic words from entrophy hex input",
+  "main": "./index.js",
+  "author": "David Valin <hola@davidvalin.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bip39": "3.0.4"
+  },
+  "bin": {
+    "entrophy2mnemonic": "./index.js"
+  }
+}
